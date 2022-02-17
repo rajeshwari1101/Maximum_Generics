@@ -14,11 +14,12 @@ internal static class TestCase
     private static readonly string[] stringTestCase3;
 
     // Generic class objects
-    private static MaximumNumber<int> maxInt;
-    private static MaximumNumber<float> maxFloat;
-    private static MaximumNumber<string> maxString;
+    private static Maximum<int> maxInt;
+    private static Maximum<float> maxFloat;
+    private static Maximum<string> maxString;
 
     // Initializes the <see cref="TestCase"/> class.
+ 
     static TestCase()
     {
         intTestCase1 = new int[] { 5, 3, 9 };
